@@ -16,7 +16,7 @@ const Header = () => {
         <div className="space-y-6 md:space-y-8 lg:space-y-10 mt-10 md:mt-0" data-aos="fade-right">
           
           {/* 👋 Greeting - Increased margin-top for mobile */}
-          <div className="flex items-center gap-3 justify-center lg:justify-start mt-6 md:mt-0">
+          <div className="flex items-center gap-3 justify-center lg:justify-start mt-6 md:mt-3">
             <img src={assets.hand_wave} alt="wave" className="h-10 w-10 md:h-8 md:w-8" />
             <h4 className="text-3xl md:text-2xl sm:text-3xl font-semibold text-gray-800 font-['Inter']">
               Hi, {userdata ? userdata.name : "Connector!"}
